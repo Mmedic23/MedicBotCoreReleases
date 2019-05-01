@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "dd1e2ebaa35955c2eef67367fc58b567b2d419d3"
+    "signature": "58800443c0a92693414cb0da43889b879c5f318c"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,8 @@
           "DSharpPlus": "4.0.0-nightly-00560",
           "DSharpPlus.CommandsNext": "4.0.0-nightly-00560",
           "DSharpPlus.Interactivity": "4.0.0-nightly-00560",
-          "DSharpPlus.VoiceNext": "4.0.0-nightly-00560"
+          "DSharpPlus.VoiceNext": "4.0.0-nightly-00560",
+          "HtmlAgilityPack": "1.11.4"
         },
         "runtime": {
           "MedicBot_CORE.dll": {}
@@ -63,6 +64,20 @@
           "lib/netstandard2.0/DSharpPlus.VoiceNext.dll": {
             "assemblyVersion": "4.0.0.560",
             "fileVersion": "4.0.0.560"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.4": {
+        "dependencies": {
+          "System.Net.Http": "4.3.3",
+          "System.Xml.XPath": "4.3.0",
+          "System.Xml.XPath.XmlDocument": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.4.0",
+            "fileVersion": "1.11.4.0"
           }
         }
       },
@@ -1026,6 +1041,39 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "System.Xml.XPath/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Xml.ReaderWriter": "4.3.0"
+        }
+      },
+      "System.Xml.XPath.XmlDocument/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Xml.ReaderWriter": "4.3.0",
+          "System.Xml.XPath": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
       }
     }
   },
@@ -1062,6 +1110,13 @@
       "sha512": "sha512-CUaizhpRRoN7uNm0EDIgOe68SsU9KDTaM73Bun+IB8I0dsWP+Mdap8sY66CIlZbD/fiMRNdWGyxxOKBL0OkA/Q==",
       "path": "dsharpplus.voicenext/4.0.0-nightly-00560",
       "hashPath": "dsharpplus.voicenext.4.0.0-nightly-00560.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gf+nBeYcCHVrmhhST5b2/w/0oMPsGE3EOlJgL5t9v3YYE3d0EuN0svyv8QjaUxFrHsUpbCjzlhjaZy+RnyUy7g==",
+      "path": "htmlagilitypack/1.11.4",
+      "hashPath": "htmlagilitypack.1.11.4.nupkg.sha512"
     },
     "Microsoft.CSharp/4.3.0": {
       "type": "package",
@@ -1129,7 +1184,7 @@
     "runtime.native.System.Net.Http/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-guqHgQOK2eUgtJae2VKjNawBn1xjC0hfOt5wASHa60XHbIdCsQlqtvMsFG+3hy7yp88V+gi9fZCjubuDkeakcQ==",
+      "sha512": "sha512-ZVuZJqnnegJhd2k/PtAbbIcZ3aZeITq3sj06oKfMBSfphW3HDmk/t4ObvbOk/JA/swGR0LNqMksAh/f7gpTROg==",
       "path": "runtime.native.system.net.http/4.3.0",
       "hashPath": "runtime.native.system.net.http.4.3.0.nupkg.sha512"
     },
@@ -1171,7 +1226,7 @@
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Kh9W4agE0r/hK8AX1LvyQI2NrKHBL8pO0gRoDTdDb0LL6Ta1Z2OtFx3lOaAE0ZpCUc/dt9Wzs3rA7a3IsKdOVA==",
+      "sha512": "sha512-kVXCuMTrTlxq4XOOMAysuNwsXWpYeboGddNGpIgNSZmv1b6r/s/DPk0fYMB7Q5Qo4bY68o48jt4T4y5BVecbCQ==",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "hashPath": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512"
     },
@@ -1234,7 +1289,7 @@
     "System.Collections.Specialized/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
+      "sha512": "sha512-Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
       "path": "system.collections.specialized/4.3.0",
       "hashPath": "system.collections.specialized.4.3.0.nupkg.sha512"
     },
@@ -1657,6 +1712,20 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.XPath/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v1JQ5SETnQusqmS3RwStF7vwQ3L02imIzl++sewmt23VGygix04pEH+FCj1yWb+z4GDzKiljr1W7Wfvrx0YwgA==",
+      "path": "system.xml.xpath/4.3.0",
+      "hashPath": "system.xml.xpath.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.XPath.XmlDocument/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
+      "path": "system.xml.xpath.xmldocument/4.3.0",
+      "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     }
   }
 }
